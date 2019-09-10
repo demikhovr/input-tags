@@ -1,3 +1,10 @@
+#InputTags React component
+Any text:
+![Alt text](img/1.png "Title")
+
+With email pattern:
+![Alt text](img/2.png "Title")
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
