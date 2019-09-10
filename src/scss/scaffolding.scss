@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  color: var(--color);
+  font-size: 12px;
+  font-family: 'Arial', sans-serif;
+  line-height: 16px;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+main {
+  display: block;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}

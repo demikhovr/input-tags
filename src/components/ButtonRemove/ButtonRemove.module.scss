@@ -1,0 +1,36 @@
+.buttonRemove {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 14px;
+  height: 14px;
+  padding: 0;
+  color: var(--color);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+
+  &::before,
+  &::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    width: 10px;
+    height: 1px;
+    background-color: currentColor;
+    content: "";
+  }
+
+  &::before {
+    transform: translate3d(-50%, -50%, 0) rotate(45deg);
+  }
+
+  &::after {
+    transform: translate3d(-50%, -50%, 0) rotate(-45deg);
+  }
+}
