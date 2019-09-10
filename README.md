@@ -1,4 +1,4 @@
-#InputTags React component
+# InputTags React component
 Any text:
 ![Alt text](img/1.png "Title")
 
