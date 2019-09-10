@@ -1,9 +1,10 @@
 # InputTags React component
 Any text:
-![Alt text](img/1.png "Title")
+
+![Alt text](https://user-images.githubusercontent.com/29978554/64650939-08544980-d429-11e9-8ff3-6e427c10958e.png)
 
 With email pattern:
-![Alt text](img/2.png "Title")
+![Alt text](https://user-images.githubusercontent.com/29978554/64650938-08544980-d429-11e9-8c99-7d50bd405862.png)
 
 ### `npm start`
 
